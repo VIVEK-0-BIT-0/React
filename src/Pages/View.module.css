@@ -1,0 +1,39 @@
+.queryViewContainer {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .queryTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+  }
+  
+  .queryTable th,
+  .queryTable td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .queryTable th {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .queryTable tbody tr:nth-child{
+    background-color: #f2f2f2;
+  }
+  
+  .queryTable tbody tr:hover {
+    background-color: #e0e0e0;
+  }
+  .container{
+    background: linear-gradient(to bottom, #ff00ff, #800000);
+    height: 100vh;  
+    text-align: center;
+  }
